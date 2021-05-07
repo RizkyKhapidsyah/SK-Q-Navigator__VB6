@@ -1,0 +1,11 @@
+Monday
+	about:blank
+		about:blank/
+	www.sjbhs2000.com
+		http://www.sjbhs2000.com/
+	www.planet-source-code.com
+		http://www.planet-source-code.com/xq/ASP/txtCodeId.13997/lngWId.1/qx/vb/scripts/ShowCode.htm
+Wednesday
+	about:blank
+		about:blank/
+Friday

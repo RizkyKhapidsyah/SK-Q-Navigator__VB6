@@ -1,0 +1,67 @@
+[Setup Wizard Template]
+TemplateDate=11/16/00 3:45:01 PM
+
+[Select Project and Options]
+txtProjFile=C:\Sudeep\Desktop\skin(original)\Connect.vbp
+chkProjRebuild=0
+optBldSetup=True
+chkIncludeDEP=1
+optInternet=False
+optDEPOnly=False
+
+[Distribution Method]
+optFloppyTarg=False
+optSingleDirTarg=True
+optMultDirTarg=False
+
+[Single Directory]
+cboFloppyDrives=0
+cboFloppyDriveSize=0
+txtDirTarget=C:\WINDOWS\desktop\setup\
+
+[Internet Package]
+optRemoteSite=True
+optLocalSite=False
+txtLocalSite=
+
+[Data Access]
+chkUseJet=1
+chkUseODBC=0
+Isam0=
+
+[ActiveX Server Components]
+File1=
+
+[Confirm Dependencies]
+File1="C:\WINDOWS\SYSTEM\SHDOCVW.DLL",False,32764
+File2="C:\WINDOWS\SYSTEM\MSCOMCTL.OCX",True,32764
+File3="C:\WINDOWS\SYSTEM\Wininet.dll",False,32762
+File4="C:\WINDOWS\SYSTEM\COMDLG32.OCX",True,32764
+File5="C:\WINDOWS\SYSTEM\NSLOCK15VB5.OCX",True,32764
+File6="C:\WINDOWS\SYSTEM\COMCTL32.OCX",True,32764
+File7="C:\WINDOWS\SYSTEM\VSRESIZE.OCX",True,32764
+File8="C:\Sudeep\Desktop\skin(original)\Connect.vbp",True,32762
+File9=
+
+[Shared ActiveX Application]
+optDeployApplication=True
+optDeployShared=False
+optRemoteServer1=True
+optRemoteServer0=False
+
+[File Summary]
+File1="C:\WINDOWS\SYSTEM\MSVBVM50.dll",False,"$(WinSysPathSysFile)",$(DLLSelfRegister),False
+File2="D:\Program Files\DevStudio\VB\SETUPKIT\KITFIL32\SYS32\StdOle2.tlb",False,"$(WinSysPathSysFile)",$(TLBRegister),False
+File3="D:\Program Files\DevStudio\VB\SETUPKIT\KITFIL32\SYS32\OleAut32.dll",False,"$(WinSysPathSysFile)",$(DLLSelfRegister),False
+File4="D:\Program Files\DevStudio\VB\SETUPKIT\KITFIL32\SYS32\OlePro32.dll",False,"$(WinSysPathSysFile)",$(DLLSelfRegister),False
+File5="D:\Program Files\DevStudio\VB\SETUPKIT\KITFIL32\SYS32\AsycFilt.dll",False,"$(WinSysPathSysFile)",,False
+File6="D:\Program Files\DevStudio\VB\SETUPKIT\KITFIL32\SYS32\Ctl3d32.dll",False,"$(WinSysPathSysFile)",,False
+File7="D:\Program Files\DevStudio\VB\SETUPKIT\KITFIL32\SYS32\ComCat.dll",False,"$(WinSysPathSysFile)",$(DLLSelfRegister),False
+File8="C:\WINDOWS\SYSTEM\MSCOMCTL.OCX",True,"$(WinSysPath)",$(DLLSelfRegister),True
+File9="C:\WINDOWS\SYSTEM\COMDLG32.OCX",True,"$(WinSysPath)",$(DLLSelfRegister),True
+File10="C:\WINDOWS\SYSTEM\NSLOCK15VB5.OCX",True,"$(WinSysPath)",$(DLLSelfRegister),True
+File11="C:\WINDOWS\SYSTEM\COMCTL32.OCX",True,"$(WinSysPath)",$(DLLSelfRegister),True
+File12="C:\WINDOWS\SYSTEM\VSRESIZE.OCX",True,"$(WinSysPath)",$(DLLSelfRegister),True
+File13="C:\Sudeep\Desktop\skin(original)\Connect.vbp",True,"$(AppPath)",,False
+File14="C:\WINDOWS\Desktop\demo\qn.exe",True,"$(AppPath)",,False
+File15="C:\WINDOWS\Desktop\demo\qn.DEP",True,"$(AppPath)",,False
